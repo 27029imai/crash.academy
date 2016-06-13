@@ -1,0 +1,41 @@
+* {
+    -webkit-tap-highlight-color:  rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    
+}
+
+
+body {
+    background-image: url(../img/golf.png);
+    background-size:  cover;
+    color: white;
+    text-align: center;
+}
+
+.counter {
+    margin-top: 70%;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    background-color:  transparent;
+    outline: none;
+}
+button:active {
+    outline: none;
+}
+
+.reset-button-wrapper {
+    text-align: raight;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.counter-button {
+    margin-top: 120px;
+}
+.counter-button:active, .reset-button:active {
+    opacity: 0.4;
+}
